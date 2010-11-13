@@ -302,6 +302,8 @@ public class CalendarView extends LinearLayout {
 
         //ビューフリッパーの追加
         this.viewFlipper = new FixableViewFlipper(context);
+        this.viewFlipper.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT
+                , LayoutParams.FILL_PARENT));
 
         {
             //カレンダービューの追加
