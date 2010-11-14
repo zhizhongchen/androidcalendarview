@@ -28,12 +28,7 @@ import java.util.GregorianCalendar;
 
 /**
  * 祭日判定のための機能を提供します
- * <p>
- * KtHolidayのクラス名、変数名、例外クラスを当フレームワークの標準に合わせて変更しています
- * </p>
- * @date 2010/04/17
- * @version $Revision:
- * @since JDK1.6 Android Level 4
+ * @since JDK1.5 Android Level 4
  *
  */
 public class HolidayUtil {
