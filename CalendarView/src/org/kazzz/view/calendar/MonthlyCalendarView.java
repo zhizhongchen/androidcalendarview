@@ -314,7 +314,8 @@ public class MonthlyCalendarView extends View {
         this.weekdayText.setTextAlign(Paint.Align.CENTER);
         float alignX = this.cellWidth / 2;
         // Y軸方向でセンタリングする。
-        float alignY = this.cellHeight / 4 - (metricsForD.ascent + metricsForD.descent) / 2;
+        //float alignY = this.cellHeight / 2 - (metricsForD.ascent + metricsForD.descent) / 2;
+        float alignY = (this.cellHeight / 4) - ((metricsForD.ascent + metricsForD.descent) / 4);
         for (int col = 0; col < 7; col++) {
             //曜日で色を変える
             this.setForground(weekdayText, col);
