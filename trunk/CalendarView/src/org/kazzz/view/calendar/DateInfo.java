@@ -43,17 +43,11 @@ public class DateInfo implements Parcelable {
     protected Object object;
     protected Date reportDate;
     /**
-     * デフォルトコンストラクタ
-     */
-    public DateInfo() {
-        super();
-    }
-    /**
      * コンストラクタ
      * @param date Dateオブジェクトをセット
      */
     public DateInfo(int year, int month, int day) {
-        this();
+        //this();
         this.year = year;
         this.month = month;
         this.day = day;
@@ -68,7 +62,7 @@ public class DateInfo implements Parcelable {
      * @param in 入力となるパーセルオブジェクトをセット
      */
     public DateInfo(Parcel in) {
-        this();
+        //this();
         this.readFromParcel(in);
     }
     /* (non-Javadoc)
